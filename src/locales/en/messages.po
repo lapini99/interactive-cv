@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-06-17 16:40+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+
+#: src/components/navbar.tsx:48
+#: src/components/navbar.tsx:76
+msgid "English"
+msgstr "English"
+
+#: src/components/navbar.tsx:51
+#: src/components/navbar.tsx:79
+msgid "Italian"
+msgstr "Italian"
+
+#: src/components/navbar.tsx:45
+#: src/components/navbar.tsx:73
+msgid "Spanish"
+msgstr "Spanish"
+
+#: src/components/navbar.tsx:40
+#: src/components/navbar.tsx:68
+msgid "Switch Language"
+msgstr "Switch Language"

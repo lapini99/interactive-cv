@@ -12,6 +12,7 @@ import {
   Button,
 } from "@heroui/react";
 import { FaLinkedin } from "react-icons/fa6";
+import { Trans } from "@lingui/react/macro";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -35,12 +36,20 @@ export const Navbar = () => {
         </NavbarItem>
         <Dropdown>
           <DropdownTrigger>
-            <Button variant="bordered">Switch Language</Button>
+            <Button variant="bordered">
+              <Trans>Switch Language</Trans>
+            </Button>
           </DropdownTrigger>
           <DropdownMenu aria-label="Static Actions">
-            <DropdownItem key="spanish">Spanish</DropdownItem>
-            <DropdownItem key="english">English</DropdownItem>
-            <DropdownItem key="italian">Italian</DropdownItem>
+            <DropdownItem key="spanish">
+              <Trans>Spanish</Trans>
+            </DropdownItem>
+            <DropdownItem key="english">
+              <Trans>English</Trans>
+            </DropdownItem>
+            <DropdownItem key="italian">
+              <Trans>Italian</Trans>
+            </DropdownItem>
           </DropdownMenu>
         </Dropdown>
       </NavbarContent>
@@ -55,12 +64,20 @@ export const Navbar = () => {
         <ThemeSwitch />
         <Dropdown>
           <DropdownTrigger>
-            <Button variant="bordered">Switch Language</Button>
+            <Button variant="bordered">
+              <Trans>Switch Language</Trans>
+            </Button>
           </DropdownTrigger>
           <DropdownMenu aria-label="Static Actions">
-            <DropdownItem key="spanish">Spanish</DropdownItem>
-            <DropdownItem key="english">English</DropdownItem>
-            <DropdownItem key="italian">Italian</DropdownItem>
+            <DropdownItem key="spanish">
+              <Trans>Spanish</Trans>
+            </DropdownItem>
+            <DropdownItem key="english">
+              <Trans>English</Trans>
+            </DropdownItem>
+            <DropdownItem key="italian">
+              <Trans>Italian</Trans>
+            </DropdownItem>
           </DropdownMenu>
         </Dropdown>
       </NavbarContent>
