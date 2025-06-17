@@ -60,8 +60,9 @@ export const siteConfig = {
     },
   ],
   links: {
+    linkedin:
+      "https://www.linkedin.com/in/alessandro-lapini-l%C3%B3pez-9a4419153/",
     github: "https://github.com/lapini99/",
-    twitter: "https://twitter.com/hero_ui",
     docs: "https://heroui.com",
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
