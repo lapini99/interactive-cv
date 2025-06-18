@@ -5,6 +5,12 @@ import {
   Divider,
   Accordion,
   AccordionItem,
+  Card,
+  CardHeader,
+  Image,
+  CardBody,
+  CardFooter,
+  Link,
 } from "@heroui/react";
 import { Trans } from "@lingui/react/macro";
 
@@ -37,60 +43,97 @@ export default function IndexPage() {
               </div>
             </div>
             <Divider className="my-4" />
+            <h1 className="text-2xl font-bold text-left mt-2 mb-4">
+              Mi vida o algo
+            </h1>
             <p className="text-left mt-4">
               <Trans>
-                I’ve always been driven by a passion for creating. As a kid, I
-                started drawing whenever I had the chance,and I still love it. I
-                also made my own movies using Lego and my mom’s camcorder.
-                Later, I learned how to modify Pokémon games (hackroms) and
-                explored video editing tools like Sony Vegas.
+                Había copy pasteado una turra que tengo en mi perfil Linkedin.
+                Pero como esta es mi web no hace falta ir de formalito.
               </Trans>
             </p>
             <p className="text-left mt-4">
               <Trans>
-                So, why am I sharing this? What I want to convey is that I’m
-                someone who will always go the extra mile to achieve my goals.
-                That’s why I studied game development and later dove into
-                programming,because I believe everything can be done through
-                code.
+                Aún así me presento, que eso sí hace falta. Me llamo Alessandro,
+                tengo 26 años y llevo casi tres años en el mundo del software.
               </Trans>
             </p>
             <p className="text-left mt-4">
               <Trans>
-                One of my proudest achievements is that my 3D renders were used
-                by a company named Smach Team at major events like E3 and Tokyo
-                Game Show. It was a great opportunity to put my creativity and
-                technical skills into action, and it really pushed me to
-                continue improving in my craft.
+                Mi principal pasión y sueño es ser director de videojuegos
+                (Kojima fanboy). De hecho empecé estudiando desarrollo de
+                videojuegos. Quería ser artista y programar me daba miedo, pero
+                como del arte está difícil vivir le eché cara y aprendí a
+                programar. Ahora también veo la programación como arte. Cada
+                artista tiene su manera de pintar sobre su lienzo (IDE), y eso
+                me encanta.
               </Trans>
             </p>
             <p className="text-left mt-4">
               <Trans>
-                Another major milestone is that I’m currently developing my own
-                horror game using Unreal Engine 5. It’s been an exciting
-                challenge, and in February, I had the opportunity to showcase it
-                at a fair in Mallorca (Mallorca Game). Seeing people’s positive
-                reactions and how much they enjoyed my game was incredibly
-                rewarding and filled me with happiness.
+                Sé que para un CV no tiene mucho que ver, pero bueno. Mis
+                aficiones son:
+              </Trans>
+            </p>
+            <ul className="list-disc list-inside text-left mt-4">
+              <li>Los videojuegos</li>
+              <li>El metal (la música, aclaro por si a caso)</li>
+              <li>Los gatetes</li>
+              <li>Hacer deporte, sobretodo ir al gym</li>
+              <li>Hacer reír a los que me rodean</li>
+            </ul>
+            <Divider className="my-4" />
+            <h1 className="text-2xl font-bold text-left mt-2 mb-4">Currele</h1>
+            <p className="text-left mt-4">
+              <Trans>
+                Durante los últimos años me he estado especializando en el
+                desarrollo Frontend. He utilizado herramientas como React y Vue,
+                sobretodo React. Ahora bien, esto no quiere decir que si me das
+                algo de back me pierda. Me gusta aprender, así que siempre que
+                tengo la oportunidad de tocar algo que no sé me pongo a leer
+                código y/o documentación. O directamente le pregunto a un
+                compañero.
               </Trans>
             </p>
             <p className="text-left mt-4">
               <Trans>
-                On a personal level, I’m also proud of the trust people place in
-                me. I’ve been fortunate enough that friends and colleagues often
-                turn to me for advice or just enjoy hanging out with me. It’s
-                nice to know that my company is appreciated, whether it’s for
-                support at work or just making people laugh.{" "}
+                Te adjunto algún que otro proyecto que tengo en Git que
+                considero que vale la pena echarle un vistazo
               </Trans>
             </p>
-            <p className="text-left mt-4">
-              <Trans>
-                What I enjoy the most is helping others, whether that means
-                offering a hand at work or simply being the one who lightens the
-                mood. I believe in the power of collaboration, solving problems
-                together, and always learning something new.
-              </Trans>
-            </p>
+            <div>
+              <Card className="max-w-[400px] mt-4">
+                <CardHeader className="flex gap-3">
+                  <Image
+                    alt="heroui logo"
+                    height={40}
+                    radius="sm"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNggEtagHz85kQ5Y2FQPwNAFOY93sAVu7B_w&s"
+                    width={40}
+                  />
+                  <div className="flex flex-col">
+                    <p className="text-md">Pokédex</p>
+                    <p className="text-small text-default-500">Svelte + TS</p>
+                  </div>
+                </CardHeader>
+                <Divider />
+                <CardBody>
+                  <p>
+                    <Trans>Pokédex hecha con Svelte y TypeScript</Trans>
+                  </p>
+                </CardBody>
+                <Divider />
+                <CardFooter>
+                  <Link
+                    isExternal
+                    showAnchorIcon
+                    href="https://github.com/lapini99/sveltePokedex/tree/dev"
+                  >
+                    <Trans>Ver código en Github</Trans>
+                  </Link>
+                </CardFooter>
+              </Card>
+            </div>
           </Tab>
           <Tab key="job" className="w-full" title={<Trans>Job</Trans>}>
             <Accordion
@@ -208,7 +251,9 @@ export default function IndexPage() {
               >
                 <div className="space-y-2 text-sm">
                   <p>
-                    <strong>Apr 2019 - Jun 2019 · Mallorca · Hybrid</strong>
+                    <strong>
+                      Apr 2019 - Jun 2019 · Palma de Mallorca · Hybrid
+                    </strong>
                   </p>
                   <ul className="list-disc list-inside">
                     <li>
@@ -365,7 +410,7 @@ export default function IndexPage() {
               >
                 <div className="space-y-2 text-sm">
                   <p>
-                    <strong>Oct 2017 - Jun 2019 · Mallorca</strong>
+                    <strong>Oct 2017 - Jun 2019 · Palma de Mallorca</strong>
                   </p>
                   <ul className="list-disc list-inside">
                     <li>
