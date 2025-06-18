@@ -6,6 +6,7 @@ import {
   Accordion,
   AccordionItem,
 } from "@heroui/react";
+import { Trans } from "@lingui/react/macro";
 
 import { title, subtitle } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
@@ -24,54 +25,71 @@ export default function IndexPage() {
                 src="/images/yo.jpeg"
               />
               <div className="flex flex-col justify-center flex-1 h-full">
-                <h1 className={title()}>Hello, I&apos;m Alessandro</h1>
+                <h1 className={title()}>
+                  <Trans>Hello, I&apos;m Alessandro</Trans>
+                </h1>
                 <p className={subtitle()}>
-                  A dude that happened to like computers and stuff related to
-                  them.
+                  <Trans>
+                    A dude that happened to like computers and stuff related to
+                    them.
+                  </Trans>
                 </p>
               </div>
             </div>
             <Divider className="my-4" />
             <p className="text-left mt-4">
-              I’ve always been driven by a passion for creating. As a kid, I
-              started drawing whenever I had the chance,and I still love it. I
-              also made my own movies using Lego and my mom’s camcorder. Later,
-              I learned how to modify Pokémon games (hackroms) and explored
-              video editing tools like Sony Vegas.
+              <Trans>
+                I’ve always been driven by a passion for creating. As a kid, I
+                started drawing whenever I had the chance,and I still love it. I
+                also made my own movies using Lego and my mom’s camcorder.
+                Later, I learned how to modify Pokémon games (hackroms) and
+                explored video editing tools like Sony Vegas.
+              </Trans>
             </p>
             <p className="text-left mt-4">
-              So, why am I sharing this? What I want to convey is that I’m
-              someone who will always go the extra mile to achieve my goals.
-              That’s why I studied game development and later dove into
-              programming,because I believe everything can be done through code.
+              <Trans>
+                So, why am I sharing this? What I want to convey is that I’m
+                someone who will always go the extra mile to achieve my goals.
+                That’s why I studied game development and later dove into
+                programming,because I believe everything can be done through
+                code.
+              </Trans>
             </p>
             <p className="text-left mt-4">
-              One of my proudest achievements is that my 3D renders were used by
-              a company named Smach Team at major events like E3 and Tokyo Game
-              Show. It was a great opportunity to put my creativity and
-              technical skills into action, and it really pushed me to continue
-              improving in my craft.
+              <Trans>
+                One of my proudest achievements is that my 3D renders were used
+                by a company named Smach Team at major events like E3 and Tokyo
+                Game Show. It was a great opportunity to put my creativity and
+                technical skills into action, and it really pushed me to
+                continue improving in my craft.
+              </Trans>
             </p>
             <p className="text-left mt-4">
-              Another major milestone is that I’m currently developing my own
-              horror game using Unreal Engine 5. It’s been an exciting
-              challenge, and in February, I had the opportunity to showcase it
-              at a fair in Mallorca (Mallorca Game). Seeing people’s positive
-              reactions and how much they enjoyed my game was incredibly
-              rewarding and filled me with happiness.
+              <Trans>
+                Another major milestone is that I’m currently developing my own
+                horror game using Unreal Engine 5. It’s been an exciting
+                challenge, and in February, I had the opportunity to showcase it
+                at a fair in Mallorca (Mallorca Game). Seeing people’s positive
+                reactions and how much they enjoyed my game was incredibly
+                rewarding and filled me with happiness.
+              </Trans>
             </p>
             <p className="text-left mt-4">
-              On a personal level, I’m also proud of the trust people place in
-              me. I’ve been fortunate enough that friends and colleagues often
-              turn to me for advice or just enjoy hanging out with me. It’s nice
-              to know that my company is appreciated, whether it’s for support
-              at work or just making people laugh.{" "}
+              <Trans>
+                On a personal level, I’m also proud of the trust people place in
+                me. I’ve been fortunate enough that friends and colleagues often
+                turn to me for advice or just enjoy hanging out with me. It’s
+                nice to know that my company is appreciated, whether it’s for
+                support at work or just making people laugh.{" "}
+              </Trans>
             </p>
             <p className="text-left mt-4">
-              What I enjoy the most is helping others, whether that means
-              offering a hand at work or simply being the one who lightens the
-              mood. I believe in the power of collaboration, solving problems
-              together, and always learning something new.
+              <Trans>
+                What I enjoy the most is helping others, whether that means
+                offering a hand at work or simply being the one who lightens the
+                mood. I believe in the power of collaboration, solving problems
+                together, and always learning something new.
+              </Trans>
             </p>
           </Tab>
           <Tab key="job" className="w-full" title="Job">

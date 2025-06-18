@@ -6,23 +6,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: it\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
-#: src/components/navbar.tsx:48
-#: src/components/navbar.tsx:76
+#: src/pages/index.tsx:32
+msgid "A dude that happened to like computers and stuff related to them."
+msgstr "Un ragazzo al che li piace il computer e tutta sta roba"
+
+#: src/pages/index.tsx:68
+msgid "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
+msgstr "Un altro traguardo importante è che attualmente sto sviluppando un mio videogioco horror con Unreal Engine 5. È stata una sfida entusiasmante, e a febbraio ho avuto l’opportunità di presentarlo a una fiera a Maiorca. Vedere le reazioni positive delle persone e quanto si sono divertite con il mio gioco è stato incredibilmente gratificante e mi ha riempito di gioia."
+
+#: src/components/LanguageSelector.tsx:29
 msgid "English"
-msgstr ""
+msgstr "Inglese"
 
-#: src/components/navbar.tsx:51
-#: src/components/navbar.tsx:79
+#: src/pages/index.tsx:29
+msgid "Hello, I'm Alessandro"
+msgstr "Ciao, sono Alessandro"
+
+#: src/pages/index.tsx:41
+msgid "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
+msgstr "Sono sempre stato spinto dalla passione per la creazione. Da bambino disegnavo ogni volta che ne avevo l’occasione—e ancora oggi lo adoro. Facevo anche i miei film con i Lego e la videocamera di mia madre. Più tardi ho imparato a modificare i giochi di Pokémon (hackrom) ed esploravo strumenti di montaggio video come Sony Vegas."
+
+#: src/components/LanguageSelector.tsx:32
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
-#: src/components/navbar.tsx:45
-#: src/components/navbar.tsx:73
+#: src/pages/index.tsx:78
+msgid "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
+msgstr "A livello personale, sono anche orgoglioso della fiducia che le persone ripongono in me. Ho avuto la fortuna che amici e colleghi spesso si rivolgano a me per un consiglio o semplicemente per passare del tempo insieme. È bello sapere che la mia compagnia è apprezzata, sia per un supporto sul lavoro che per fare una risata."
+
+#: src/pages/index.tsx:59
+msgid "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
+msgstr "Una delle cose di cui sono più fiero è che i miei render 3D sono stati utilizzati da una compagnia chiamata Smach Team in eventi importanti come l’E3 e il Tokyo Game Show. È stata una grande occasione per mettere in pratica la mia creatività e le mie competenze tecniche, e mi ha davvero spinto a continuare a migliorare nel mio mestiere."
+
+#: src/pages/index.tsx:50
+msgid "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
+msgstr "Perché ti sto raccontando tutto questo? Perché voglio trasmettere che sono una persona che fa sempre un passo in più per raggiungere i propri obiettivi. È per questo che ho studiato sviluppo di videogiochi e poi mi sono immerso nella programmazione—perché credo che tutto si possa realizzare con il codice."
+
+#: src/components/LanguageSelector.tsx:26
 msgid "Spanish"
-msgstr ""
+msgstr "Spagnolo"
 
-#: src/components/navbar.tsx:40
-#: src/components/navbar.tsx:68
+#: src/components/LanguageSelector.tsx:21
 msgid "Switch Language"
-msgstr ""
+msgstr "Cambia lingua"
+
+#: src/pages/index.tsx:87
+msgid "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
+msgstr "Quello che mi piace di più è aiutare gli altri, sia dando una mano al lavoro che semplicemente portando un po’ di allegria. Credo nel potere della collaborazione, nel risolvere i problemi insieme e nell’imparare sempre qualcosa di nuovo."

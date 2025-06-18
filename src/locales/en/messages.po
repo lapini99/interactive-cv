@@ -6,23 +6,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
-#: src/components/navbar.tsx:48
-#: src/components/navbar.tsx:76
+#: src/pages/index.tsx:32
+msgid "A dude that happened to like computers and stuff related to them."
+msgstr "A dude that happened to like computers and stuff related to them."
+
+#: src/pages/index.tsx:68
+msgid "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
+msgstr "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
+
+#: src/components/LanguageSelector.tsx:29
 msgid "English"
 msgstr "English"
 
-#: src/components/navbar.tsx:51
-#: src/components/navbar.tsx:79
+#: src/pages/index.tsx:29
+msgid "Hello, I'm Alessandro"
+msgstr "Hello, I'm Alessandro"
+
+#: src/pages/index.tsx:41
+msgid "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
+msgstr "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
+
+#: src/components/LanguageSelector.tsx:32
 msgid "Italian"
 msgstr "Italian"
 
-#: src/components/navbar.tsx:45
-#: src/components/navbar.tsx:73
+#: src/pages/index.tsx:78
+msgid "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
+msgstr "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
+
+#: src/pages/index.tsx:59
+msgid "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
+msgstr "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
+
+#: src/pages/index.tsx:50
+msgid "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
+msgstr "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
+
+#: src/components/LanguageSelector.tsx:26
 msgid "Spanish"
 msgstr "Spanish"
 
-#: src/components/navbar.tsx:40
-#: src/components/navbar.tsx:68
+#: src/components/LanguageSelector.tsx:21
 msgid "Switch Language"
 msgstr "Switch Language"
+
+#: src/pages/index.tsx:87
+msgid "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
+msgstr "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."

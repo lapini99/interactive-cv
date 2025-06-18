@@ -4,19 +4,13 @@ import {
   NavbarContent,
   NavbarItem,
 } from "@heroui/navbar";
-import {
-  Dropdown,
-  DropdownTrigger,
-  DropdownMenu,
-  DropdownItem,
-  Button,
-} from "@heroui/react";
 import { FaLinkedin } from "react-icons/fa6";
-import { Trans } from "@lingui/react/macro";
 
+import LanguageSelector from "./LanguageSelector";
+
+import { GithubIcon } from "@/components/icons";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { GithubIcon } from "@/components/icons";
 
 export const Navbar = () => {
   return (
@@ -34,24 +28,7 @@ export const Navbar = () => {
           </Link>
           <ThemeSwitch />
         </NavbarItem>
-        <Dropdown>
-          <DropdownTrigger>
-            <Button variant="bordered">
-              <Trans>Switch Language</Trans>
-            </Button>
-          </DropdownTrigger>
-          <DropdownMenu aria-label="Static Actions">
-            <DropdownItem key="spanish">
-              <Trans>Spanish</Trans>
-            </DropdownItem>
-            <DropdownItem key="english">
-              <Trans>English</Trans>
-            </DropdownItem>
-            <DropdownItem key="italian">
-              <Trans>Italian</Trans>
-            </DropdownItem>
-          </DropdownMenu>
-        </Dropdown>
+        <LanguageSelector />
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
@@ -62,24 +39,7 @@ export const Navbar = () => {
           <GithubIcon className="text-default-500" />
         </Link>
         <ThemeSwitch />
-        <Dropdown>
-          <DropdownTrigger>
-            <Button variant="bordered">
-              <Trans>Switch Language</Trans>
-            </Button>
-          </DropdownTrigger>
-          <DropdownMenu aria-label="Static Actions">
-            <DropdownItem key="spanish">
-              <Trans>Spanish</Trans>
-            </DropdownItem>
-            <DropdownItem key="english">
-              <Trans>English</Trans>
-            </DropdownItem>
-            <DropdownItem key="italian">
-              <Trans>Italian</Trans>
-            </DropdownItem>
-          </DropdownMenu>
-        </Dropdown>
+        <LanguageSelector />
       </NavbarContent>
     </HeroUINavbar>
   );
