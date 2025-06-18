@@ -102,10 +102,11 @@ export default function IndexPage() {
               </Trans>
             </p>
             <div>
-              <Card className="max-w-[400px] mt-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+              <Card className="max-w-[400px] w-full">
                 <CardHeader className="flex gap-3">
                   <Image
-                    alt="heroui logo"
+                    alt="pokedex logo"
                     height={40}
                     radius="sm"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNggEtagHz85kQ5Y2FQPwNAFOY93sAVu7B_w&s"
@@ -133,6 +134,74 @@ export default function IndexPage() {
                   </Link>
                 </CardFooter>
               </Card>
+              <Card className="max-w-[400px] w-full">
+                <CardHeader className="flex gap-3">
+                  <Image
+                    alt="python logo"
+                    height={40}
+                    radius="sm"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                    width={40}
+                  />
+                  <div className="flex flex-col">
+                    <p className="text-md">PyDevOps</p>
+                    <p className="text-small text-default-500">MongoDB + Python + HUGO</p>
+                  </div>
+                </CardHeader>
+                <Divider />
+                <CardBody>
+                  <p>
+                    <Trans>
+                      Generate static website with retrieving MongoDB data with Python
+                      and Hugo.
+                    </Trans>
+                  </p>
+                </CardBody>
+                <Divider />
+                <CardFooter>
+                  <Link
+                    isExternal
+                    showAnchorIcon
+                    href="https://github.com/lapini99/PyDevops"
+                  >
+                    <Trans>Ver código en Github</Trans>
+                  </Link>
+                </CardFooter>
+              </Card>
+              <Card className="max-w-[400px] w-full">
+                <CardHeader className="flex gap-3">
+                  <Image
+                    alt="php logo"
+                    height={40}
+                    radius="sm"
+                    src="https://images.seeklogo.com/logo-png/44/2/php-logo-png_seeklogo-441548.png"
+                    width={40}
+                  />
+                  <div className="flex flex-col">
+                    <p className="text-md">Entrega final UX</p>
+                    <p className="text-small text-default-500">PhP + JS + PhPMyAdmin</p>
+                  </div>
+                </CardHeader>
+                <Divider />
+                <CardBody>
+                  <p>
+                    <Trans>
+                      Website to CRUD content with an admin panel.
+                    </Trans>
+                  </p>
+                </CardBody>
+                <Divider />
+                <CardFooter>
+                  <Link
+                    isExternal
+                    showAnchorIcon
+                    href="https://github.com/lapini99/practicaPHP_Alessandro"
+                  >
+                    <Trans>Ver código en Github</Trans>
+                  </Link>
+                </CardFooter>
+              </Card>
+            </div>
             </div>
           </Tab>
           <Tab key="job" className="w-full" title={<Trans>Job</Trans>}>
@@ -279,7 +348,7 @@ export default function IndexPage() {
               </AccordionItem>
             </Accordion>
           </Tab>
-          <Tab key="studies" title={<Trans>Studies</Trans>}>
+          <Tab key="studies" className="w-full" title={<Trans>Studies</Trans>}>
             <Accordion
               defaultExpandedKeys={["1"]}
               fullWidth={true}
