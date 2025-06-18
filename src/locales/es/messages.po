@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/pages/index.tsx:206
+msgid "3D Artist"
+msgstr ""
+
 #: src/pages/index.tsx:32
 msgid "A dude that happened to like computers and stuff related to them."
 msgstr "Un chico al que le gustan los ordenadores y esas cosas"
@@ -21,9 +25,41 @@ msgstr "Un chico al que le gustan los ordenadores y esas cosas"
 msgid "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
 msgstr "Otro hito importante es que actualmente estoy desarrollando mi propio videojuego de terror con Unreal Engine 5. Ha sido un reto emocionante, y en febrero tuve la oportunidad de presentarlo en una feria en Mallorca. Ver la reacción positiva de la gente y cuánto disfrutaron mi juego fue increíblemente gratificante y me llenó de felicidad."
 
+#: src/pages/index.tsx:221
+msgid "Contributed to the creation of assets for the E3 trailer."
+msgstr ""
+
+#: src/pages/index.tsx:190
+msgid "Crafted environments for a fighting game."
+msgstr ""
+
+#: src/pages/index.tsx:123
+msgid "Created an internal tool for online Ikea agents using React, Redux and Axios."
+msgstr ""
+
+#: src/pages/index.tsx:182
+msgid "Created optimized 3D models for smartphone games."
+msgstr ""
+
+#: src/pages/index.tsx:187
+msgid "Designed levels for a racing game."
+msgstr ""
+
 #: src/components/LanguageSelector.tsx:29
 msgid "English"
 msgstr "Inglés"
+
+#: src/pages/index.tsx:135
+msgid "Fixed and developed new features using Vue or React."
+msgstr ""
+
+#: src/pages/index.tsx:112
+msgid "Frontend Developer"
+msgstr ""
+
+#: src/pages/index.tsx:173
+msgid "Game Developer"
+msgstr ""
 
 #: src/pages/index.tsx:29
 msgid "Hello, I'm Alessandro"
@@ -31,11 +67,19 @@ msgstr "Hola, soy Alessandro"
 
 #: src/pages/index.tsx:41
 msgid "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
-msgstr "Siempre he sido un chico con mucha imaginación. De niño, dibujaba siempre que tenía la oportunidad—y aún me encanta hacerlo. También hacía mis propias películas con piezas de Lego y la cámara de vídeo de mi madre. Más adelante, aprendí a modificar juegos de Pokémon (hackroms) y experimenté con programas de edición de vídeo como Sony Vegas."
+msgstr "Siempre he sido un chico con mucha imaginación. De niño, dibujaba siempre que tenía la oportunidad, y aún me gusta hacerlo. También hacía mis propias películas con piezas de Lego y la cámara de vídeo de mi madre. Más adelante, aprendí a modificar juegos de Pokémon (hackroms) y experimenté con programas de edición de vídeo como Sony Vegas."
+
+#: src/pages/index.tsx:129
+msgid "Implemented new purchase methods for Ikea Iceland using React, Redux and Axios."
+msgstr ""
 
 #: src/components/LanguageSelector.tsx:32
 msgid "Italian"
 msgstr "Italiano"
+
+#: src/pages/index.tsx:95
+msgid "Job"
+msgstr "Trabajo"
 
 #: src/pages/index.tsx:78
 msgid "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
@@ -45,6 +89,18 @@ msgstr "A nivel personal, también me siento orgulloso de la confianza que la ge
 msgid "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
 msgstr "Uno de los logros de los que más orgulloso estoy es que mis renders 3D fueron utilizados por una empresa llamada Smach Team en eventos importantes como el E3 y la Tokyo Game Show. Fue una gran oportunidad para poner en práctica mi creatividad y mis habilidades técnicas, y me impulsó a seguir mejorando en mi oficio."
 
+#: src/pages/index.tsx:118
+msgid "Present"
+msgstr ""
+
+#: src/pages/index.tsx:227
+msgid "Produced renders for stands exhibited at E3 2019, Tokyo Gameshow and merch."
+msgstr ""
+
+#: src/pages/index.tsx:215
+msgid "Redesigned the 3D model of the handheld console in development."
+msgstr ""
+
 #: src/pages/index.tsx:50
 msgid "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
 msgstr "¿Por qué cuento esto? Porque lo que quiero transmitir es que soy una persona que siempre da un paso más para alcanzar sus objetivos. Por eso estudié desarrollo de videojuegos y luego me adentré en la programación—porque creo que todo se puede lograr con código."
@@ -53,10 +109,22 @@ msgstr "¿Por qué cuento esto? Porque lo que quiero transmitir es que soy una p
 msgid "Spanish"
 msgstr "Español"
 
+#: src/pages/index.tsx:237
+msgid "Studies"
+msgstr "Estudios"
+
 #: src/components/LanguageSelector.tsx:21
 msgid "Switch Language"
 msgstr "Cambiar idioma"
 
+#: src/pages/index.tsx:153
+msgid "Web Developer Internship"
+msgstr ""
+
 #: src/pages/index.tsx:87
 msgid "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
 msgstr "Lo que más disfruto es ayudar a los demás, ya sea echando una mano en el trabajo o simplemente siendo quien anima el ambiente. Creo en el poder de la colaboración, en resolver problemas en equipo y en aprender algo nuevo cada día."
+
+#: src/pages/index.tsx:19
+msgid "Who I am"
+msgstr "Quién soy"

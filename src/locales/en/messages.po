@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/pages/index.tsx:206
+msgid "3D Artist"
+msgstr "3D Artist"
+
 #: src/pages/index.tsx:32
 msgid "A dude that happened to like computers and stuff related to them."
 msgstr "A dude that happened to like computers and stuff related to them."
@@ -21,9 +25,41 @@ msgstr "A dude that happened to like computers and stuff related to them."
 msgid "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
 msgstr "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
 
+#: src/pages/index.tsx:221
+msgid "Contributed to the creation of assets for the E3 trailer."
+msgstr "Contributed to the creation of assets for the E3 trailer."
+
+#: src/pages/index.tsx:190
+msgid "Crafted environments for a fighting game."
+msgstr "Crafted environments for a fighting game."
+
+#: src/pages/index.tsx:123
+msgid "Created an internal tool for online Ikea agents using React, Redux and Axios."
+msgstr "Created an internal tool for online Ikea agents using React, Redux and Axios."
+
+#: src/pages/index.tsx:182
+msgid "Created optimized 3D models for smartphone games."
+msgstr "Created optimized 3D models for smartphone games."
+
+#: src/pages/index.tsx:187
+msgid "Designed levels for a racing game."
+msgstr "Designed levels for a racing game."
+
 #: src/components/LanguageSelector.tsx:29
 msgid "English"
 msgstr "English"
+
+#: src/pages/index.tsx:135
+msgid "Fixed and developed new features using Vue or React."
+msgstr "Fixed and developed new features using Vue or React."
+
+#: src/pages/index.tsx:112
+msgid "Frontend Developer"
+msgstr "Frontend Developer"
+
+#: src/pages/index.tsx:173
+msgid "Game Developer"
+msgstr "Game Developer"
 
 #: src/pages/index.tsx:29
 msgid "Hello, I'm Alessandro"
@@ -33,9 +69,17 @@ msgstr "Hello, I'm Alessandro"
 msgid "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
 msgstr "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
 
+#: src/pages/index.tsx:129
+msgid "Implemented new purchase methods for Ikea Iceland using React, Redux and Axios."
+msgstr "Implemented new purchase methods for Ikea Iceland using React, Redux and Axios."
+
 #: src/components/LanguageSelector.tsx:32
 msgid "Italian"
 msgstr "Italian"
+
+#: src/pages/index.tsx:95
+msgid "Job"
+msgstr "Job"
 
 #: src/pages/index.tsx:78
 msgid "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
@@ -45,6 +89,18 @@ msgstr "On a personal level, I’m also proud of the trust people place in me. I
 msgid "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
 msgstr "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
 
+#: src/pages/index.tsx:118
+msgid "Present"
+msgstr "Present"
+
+#: src/pages/index.tsx:227
+msgid "Produced renders for stands exhibited at E3 2019, Tokyo Gameshow and merch."
+msgstr "Produced renders for stands exhibited at E3 2019, Tokyo Gameshow and merch."
+
+#: src/pages/index.tsx:215
+msgid "Redesigned the 3D model of the handheld console in development."
+msgstr "Redesigned the 3D model of the handheld console in development."
+
 #: src/pages/index.tsx:50
 msgid "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
 msgstr "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
@@ -53,10 +109,22 @@ msgstr "So, why am I sharing this? What I want to convey is that I’m someone w
 msgid "Spanish"
 msgstr "Spanish"
 
+#: src/pages/index.tsx:237
+msgid "Studies"
+msgstr "Studies"
+
 #: src/components/LanguageSelector.tsx:21
 msgid "Switch Language"
 msgstr "Switch Language"
 
+#: src/pages/index.tsx:153
+msgid "Web Developer Internship"
+msgstr "Web Developer Internship"
+
 #: src/pages/index.tsx:87
 msgid "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
 msgstr "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
+
+#: src/pages/index.tsx:19
+msgid "Who I am"
+msgstr "Who I am"
