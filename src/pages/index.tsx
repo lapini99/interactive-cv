@@ -11,6 +11,7 @@ import {
   CardBody,
   CardFooter,
   Link,
+  Button,
 } from "@heroui/react";
 import { Trans } from "@lingui/react/macro";
 
@@ -98,7 +99,7 @@ export default function IndexPage() {
             <p className="text-left mt-4">
               <Trans>
                 Te adjunto algún que otro proyecto que tengo en Git que
-                considero que vale la pena echarle un vistazo
+                considero que vale la pena echarle un vistazo:
               </Trans>
             </p>
             <div>
@@ -202,6 +203,208 @@ export default function IndexPage() {
                 </CardFooter>
               </Card>
             </div>
+            <p className="text-left mt-4">
+              <Trans>
+                Y si quieres ver mi perfil puedes acceder a mi <Link
+                    isExternal
+                    showAnchorIcon
+                    href="https://github.com/lapini99"
+                  >
+                    Github
+                  </Link>
+              </Trans>
+              .
+            </p>
+            </div>
+            <Divider className="my-4" />
+            <h1 className="text-2xl font-bold text-left mt-2 mb-4">
+              Proyecto personal
+            </h1>
+            <p className="text-left mt-4">
+              <Trans>
+                Como ya he comentado antes, mi pasión es el desarrollo de
+                videojuegos. Por eso estoy trabajando en un proyecto personal
+                que se llama &nbsp;
+                <Link
+                  isExternal
+                  showAnchorIcon
+                  href="https://neverbloomproductions.es/">
+                  <strong>Numb of Joy</strong>
+                </Link>. Es un juego de terror psicológico en primera persona desarrollado con Unrean Engine 5.
+              </Trans>
+            </p>
+            <div className="flex flex-col items-center justify-center mt-4">
+            <Image
+              alt="HeroUI Image with fallback"
+              // fallbackSrc="https://via.placeholder.com/300x200"
+              // height={500}
+              src="https://neverbloomproductions.es/themes/neverbloom/assets/images/bannerdef.png"
+              // width={auto}
+            />
+            </div>
+            <p className="text-left mt-4">
+              <Trans>
+                En este proyecto estoy poniendo toda mi alma y corazón. Siempre he querido publicar una historia
+                que cautive a la gente para que así no piense en sus problemas reales, para que se distraigan y alivien.
+                Y sé que con Numb of Joy lo voy a conseguir.
+              </Trans>
+            </p>
+                 <p className="text-left mt-4">
+              <Trans>
+                En el desarrollo me encargo de:
+              </Trans>
+            </p>
+            <ul className="list-disc list-inside text-left mt-4">
+              <li>
+                <Trans>Dirección, guión e historia</Trans>
+              </li>
+              <li>
+                <Trans>Modelado 3D y animación</Trans>
+              </li>
+              <li>
+                <Trans>Programación</Trans>
+              </li>
+              <li>
+                <Trans>Concept art</Trans>
+              </li>
+            </ul>
+            <p className="text-left mt-4">
+              <Trans>
+                Vamos, que lo hago yo todo. Bueno, casi todo. Tengo un buen amigo que me ayuda con la música y los efectos de sonido.
+              </Trans>
+            </p>
+            <Divider className="my-4" />
+            <h1 className="text-2xl font-bold text-left mt-2 mb-4">
+              <Trans>Tecnologías que mejor sé usar</Trans>
+            </h1>
+            <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
+              <Card isFooterBlurred className="border-none w-fit" radius="lg">
+                <Image
+                  alt="Unreal Engine"
+                  className="object-cover"
+                  height={200}
+                  src="https://catnessgames.com/wp-content/uploads/2023/02/requisitos-unreal-engine-5.jpg"
+                  width={200}
+                />
+                <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                  <Button
+                    className="text-tiny text-white bg-black/0 w-full"
+                    color="default"
+                    radius="lg"
+                    size="sm"
+                    variant="flat"
+                  >
+                    <Link
+                      isExternal
+                      // showAnchorIcon
+                      href="https://www.unrealengine.com/en-US/unreal-engine-5"
+                    >
+                      Unreal Engine
+                    </Link>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card isFooterBlurred className="border-none w-fit" radius="lg">
+                <Image
+                  alt="Unreal Engine"
+                  className="object-cover"
+                  height={200}
+                  src="https://media.printables.com/media/prints/448434/images/3696282_2d9e1d0f-6c9d-45e4-b737-fe8e9a4162db/thumbs/inside/1280x960/jpg/img_6692.webp"
+                  width={200}
+                />
+                <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                  <Button
+                    className="text-tiny text-white bg-black/0 w-full"
+                    color="default"
+                    radius="lg"
+                    size="sm"
+                    variant="flat"
+                  >
+                    <Link
+                      isExternal
+                      // showAnchorIcon
+                      href="https://www.blender.org/"
+                    >
+                      Blender
+                    </Link>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card isFooterBlurred className="border-none w-fit" radius="lg">
+                <Image
+                  alt="Unreal Engine"
+                  className="object-cover"
+                  height={200}
+                  src="https://miro.medium.com/v2/1*jDIj2SKAE-Bp32owLoHDjw.png"
+                  width={200}
+                />
+                <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                  <Button
+                    className="text-tiny text-white bg-black/0 w-full"
+                    color="default"
+                    radius="lg"
+                    size="sm"
+                    variant="flat"
+                  >
+                    <Link
+                      isExternal
+                      href="https://es.react.dev/"
+                    >
+                      React
+                    </Link>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card isFooterBlurred className="border-none w-fit" radius="lg">
+                <Image
+                  alt="Unreal Engine"
+                  className="object-cover"
+                  height={200}
+                  src="https://www.webqam.fr/wp-content/uploads/2024/09/vuejs-banner.jpg"
+                  width={200}
+                />
+                <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                  <Button
+                    className="text-tiny text-white bg-black/0 w-full"
+                    color="default"
+                    radius="lg"
+                    size="sm"
+                    variant="flat"
+                  >
+                    <Link
+                      isExternal
+                      href="https://vuejs.org/"
+                    >
+                      Vue
+                    </Link>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card isFooterBlurred className="border-none w-fit" radius="lg">
+                <Image
+                  alt="Unreal Engine"
+                  className="object-cover"
+                  height={200}
+                  src="https://imgproxy.domestika.org/unsafe/w:1200/rs:fill/plain/src://blog-post-open-graph-covers/000/001/593/1593-original.jpg?1641571250"
+                  width={200}
+                />
+                <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                  <Button
+                    className="text-tiny text-white bg-black/0 w-full"
+                    color="default"
+                    radius="lg"
+                    size="sm"
+                    variant="flat"
+                  >
+                    <Link
+                      isExternal
+                      href="https://www.adobe.com/es/products/photoshop.html"
+                    >
+                      Photoshop
+                    </Link>
+                  </Button>
+                </CardFooter>
+              </Card>
             </div>
           </Tab>
           <Tab key="job" className="w-full" title={<Trans>Job</Trans>}>
@@ -224,7 +427,7 @@ export default function IndexPage() {
                 subtitle={<Trans>Frontend Developer</Trans>}
                 title="Conjurer (IKEA)"
               >
-                <div className="space-y-2 text-sm">
+                <div className="space-y-2">
                   <p>
                     <strong>
                       Mar 2023 - <Trans>Present</Trans> · Palma de Mallorca
@@ -369,7 +572,7 @@ export default function IndexPage() {
                 }
                 title="EDIB"
               >
-                <div className="space-y-2 text-sm">
+                <div className="space-y-2">
                   <p>
                     <strong>Oct 2022 - Jun 2023 · Palma de Mallorca</strong>
                   </p>
