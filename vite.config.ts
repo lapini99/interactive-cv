@@ -14,5 +14,5 @@ export default defineConfig({
     tsconfigPaths(),
     lingui(),
   ],
-  base: "https://lapini99.github.io/interactive-cv",
+  base: '/interactive-cv/',
 });
