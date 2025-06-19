@@ -13,103 +13,259 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/index.tsx:206
+#: src/components/tabsContent/Job.tsx:115
 msgid "3D Artist"
 msgstr "3D Artist"
 
-#: src/pages/index.tsx:32
+#: src/components/tabsContent/Me.tsx:274
+msgid "3D modeling and animation"
+msgstr "3D modeling and animation"
+
+#: src/components/tabsContent/Me.tsx:33
 msgid "A dude that happened to like computers and stuff related to them."
 msgstr "A dude that happened to like computers and stuff related to them."
 
-#: src/pages/index.tsx:68
-msgid "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
-msgstr "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
+#: src/components/tabsContent/Me.tsx:221
+msgid "And if you want to see more, feel free to check out my <0>Github</0>"
+msgstr "And if you want to see more, feel free to check out my <0>Github</0>"
 
-#: src/pages/index.tsx:221
+#: src/pages/index.tsx:68
+#~ msgid "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
+#~ msgstr "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
+
+#: src/components/tabsContent/Me.tsx:235
+msgid "As I mentioned before, my passion is video game development. That’s why I’m working on a personal project called  <0><1>Numb of Joy</1></0>. It’s a first-person psychological horror game made with Unreal Engine 5."
+msgstr "As I mentioned before, my passion is video game development. That’s why I’m working on a personal project called  <0><1>Numb of Joy</1></0>. It’s a first-person psychological horror game made with Unreal Engine 5."
+
+#: src/components/tabsContent/Me.tsx:287
+msgid "Basically, I do everything. Well, almost. A good friend helps me with music and sound effects."
+msgstr "Basically, I do everything. Well, almost. A good friend helps me with music and sound effects."
+
+#: src/components/tabsContent/Me.tsx:81
+msgid "Cats"
+msgstr "Cats"
+
+#: src/components/tabsContent/Me.tsx:280
+msgid "Concept art"
+msgstr "Concept art"
+
+#: src/components/tabsContent/Job.tsx:130
 msgid "Contributed to the creation of assets for the E3 trailer."
 msgstr "Contributed to the creation of assets for the E3 trailer."
 
-#: src/pages/index.tsx:190
+#: src/components/tabsContent/Job.tsx:99
 msgid "Crafted environments for a fighting game."
 msgstr "Crafted environments for a fighting game."
 
-#: src/pages/index.tsx:123
+#: src/components/tabsContent/Job.tsx:34
 msgid "Created an internal tool for online Ikea agents using React, Redux and Axios."
 msgstr "Created an internal tool for online Ikea agents using React, Redux and Axios."
 
-#: src/pages/index.tsx:182
+#: src/components/tabsContent/Job.tsx:93
 msgid "Created optimized 3D models for smartphone games."
 msgstr "Created optimized 3D models for smartphone games."
 
-#: src/pages/index.tsx:187
+#: src/components/tabsContent/Job.tsx:96
 msgid "Designed levels for a racing game."
 msgstr "Designed levels for a racing game."
+
+#: src/components/tabsContent/Me.tsx:271
+msgid "Direction, script, and story"
+msgstr "Direction, script, and story"
 
 #: src/components/LanguageSelector.tsx:29
 msgid "English"
 msgstr "English"
 
-#: src/pages/index.tsx:135
+#: src/components/tabsContent/Me.tsx:195
+msgid "Final UX Project"
+msgstr "Final UX Project"
+
+#: src/components/tabsContent/Job.tsx:46
 msgid "Fixed and developed new features using Vue or React."
 msgstr "Fixed and developed new features using Vue or React."
 
-#: src/pages/index.tsx:112
+#: src/components/tabsContent/Studies.tsx:22
+msgid "FP Multi-platform Application Development"
+msgstr "FP Multi-platform Application Development"
+
+#: src/components/tabsContent/Studies.tsx:121
+msgid "FP Technical Artist, 2D/3D Animation and Game Development"
+msgstr "FP Technical Artist, 2D/3D Animation and Game Development"
+
+#: src/components/tabsContent/Studies.tsx:57
+msgid "FP Web Application Development"
+msgstr "FP Web Application Development"
+
+#: src/components/tabsContent/Job.tsx:23
 msgid "Frontend Developer"
 msgstr "Frontend Developer"
 
-#: src/pages/index.tsx:173
+#: src/components/tabsContent/Job.tsx:84
 msgid "Game Developer"
 msgstr "Game Developer"
 
-#: src/pages/index.tsx:29
+#: src/components/tabsContent/Me.tsx:75
+msgid "Gaming"
+msgstr "Gaming"
+
+#: src/components/tabsContent/Me.tsx:167
+msgid "Generates static website with retrieving MongoDB data with Python and Hugo."
+msgstr "Generates static website with retrieving MongoDB data with Python and Hugo."
+
+#: src/components/tabsContent/Studies.tsx:93
+msgid "Graphic Design Advanced course"
+msgstr "Graphic Design Advanced course"
+
+#: src/components/tabsContent/Me.tsx:30
 msgid "Hello, I'm Alessandro"
 msgstr "Hello, I'm Alessandro"
 
-#: src/pages/index.tsx:41
-msgid "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
-msgstr "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
+#: src/components/tabsContent/Me.tsx:111
+msgid "Here are a few projects on GitHub I think are worth checking out:"
+msgstr "Here are a few projects on GitHub I think are worth checking out:"
 
-#: src/pages/index.tsx:129
+#: src/components/tabsContent/Me.tsx:91
+msgid "I already mentioned what my dream is. Sure, that’s my dream, but what I really want is a peaceful life where I can spend time doing the things I enjoy and that make me feel good."
+msgstr "I already mentioned what my dream is. Sure, that’s my dream, but what I really want is a peaceful life where I can spend time doing the things I enjoy and that make me feel good."
+
+#: src/components/tabsContent/Studies.tsx:76
+msgid "I also learnt how to build optimized SQL or noSQL databases"
+msgstr "I also learnt how to build optimized SQL or noSQL databases"
+
+#: src/components/tabsContent/Me.tsx:44
+msgid "I had copy-pasted a big spiel from my LinkedIn profile. But since this is my own website, I don’t need to be all formal."
+msgstr "I had copy-pasted a big spiel from my LinkedIn profile. But since this is my own website, I don’t need to be all formal."
+
+#: src/components/tabsContent/Me.tsx:68
+msgid "I know this doesn’t really belong in a CV, but I don't mind. My hobbies are:"
+msgstr "I know this doesn’t really belong in a CV, but I don't mind. My hobbies are:"
+
+#: src/components/tabsContent/Studies.tsx:133
+msgid "I learnt 3D Modelling and Animation"
+msgstr "I learnt 3D Modelling and Animation"
+
+#: src/components/tabsContent/Studies.tsx:105
+msgid "I learnt color theories."
+msgstr "I learnt color theories."
+
+#: src/components/tabsContent/Studies.tsx:66
+msgid "I learnt how to develop applications with Java and Python."
+msgstr "I learnt how to develop applications with Java and Python."
+
+#: src/components/tabsContent/Studies.tsx:31
+msgid "I learnt how to develop applications with Java."
+msgstr "I learnt how to develop applications with Java."
+
+#: src/components/tabsContent/Studies.tsx:34
+msgid "I learnt how to develop web apps with PHP and JavaScript."
+msgstr "I learnt how to develop web apps with PHP and JavaScript."
+
+#: src/components/tabsContent/Studies.tsx:136
+msgid "I learnt how to use Adobe Premiere and After Effects"
+msgstr "I learnt how to use Adobe Premiere and After Effects"
+
+#: src/components/tabsContent/Studies.tsx:71
+msgid "I learnt SOLID, how to debug and other good coding practices."
+msgstr "I learnt SOLID, how to debug and other good coding practices."
+
+#: src/components/tabsContent/Studies.tsx:102
+msgid "I masterized Photoshop and Illustrator."
+msgstr "I masterized Photoshop and Illustrator."
+
+#: src/components/tabsContent/Me.tsx:259
+msgid "I’m putting my heart and soul into this project. I’ve always wanted to tell a story that captivates people, helps them forget their real-life problems, and brings them some relief. I truly believe Numb of Joy can do that."
+msgstr "I’m putting my heart and soul into this project. I’ve always wanted to tell a story that captivates people, helps them forget their real-life problems, and brings them some relief. I truly believe Numb of Joy can do that."
+
+#: src/pages/index.tsx:41
+#~ msgid "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
+#~ msgstr "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
+
+#: src/components/tabsContent/Job.tsx:40
 msgid "Implemented new purchase methods for Ikea Iceland using React, Redux and Axios."
 msgstr "Implemented new purchase methods for Ikea Iceland using React, Redux and Axios."
+
+#: src/components/tabsContent/Me.tsx:267
+msgid "In the development, I handle:"
+msgstr "In the development, I handle:"
 
 #: src/components/LanguageSelector.tsx:32
 msgid "Italian"
 msgstr "Italian"
 
-#: src/pages/index.tsx:95
+#: src/pages/index.tsx:17
 msgid "Job"
 msgstr "Job"
 
+#: src/components/tabsContent/Me.tsx:283
+msgid "Level design"
+msgstr "Level design"
+
+#: src/components/tabsContent/Me.tsx:87
+msgid "Making people around me laugh"
+msgstr "Making people around me laugh"
+
+#: src/components/tabsContent/Me.tsx:78
+msgid "Metal (the music genre, just to be clear)"
+msgstr "Metal (the music genre, just to be clear)"
+
+#: src/components/tabsContent/Me.tsx:57
+msgid "My biggest passion and dream is to become a video game director (Kojima fanboy). I actually started by studying video game development. I wanted to be an artist, and programming used to scare me, but since it’s hard to make a living with art, I went for it and learned to code. Now I see programming as a form of art too. Every artist has their way of painting on their canvas (IDE), and I love that."
+msgstr "My biggest passion and dream is to become a video game director (Kojima fanboy). I actually started by studying video game development. I wanted to be an artist, and programming used to scare me, but since it’s hard to make a living with art, I went for it and learned to code. Now I see programming as a form of art too. Every artist has their way of painting on their canvas (IDE), and I love that."
+
+#: src/components/tabsContent/Me.tsx:41
+msgid "My life or something"
+msgstr "My life or something"
+
 #: src/pages/index.tsx:78
-msgid "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
-msgstr "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
+#~ msgid "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
+#~ msgstr "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
 
 #: src/pages/index.tsx:59
-msgid "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
-msgstr "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
+#~ msgid "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
+#~ msgstr "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
 
-#: src/pages/index.tsx:118
+#: src/components/tabsContent/Me.tsx:102
+msgid "Over the last few years, I’ve specialized in Frontend development. I’ve worked with tools like React and Vue, mostly React. That doesn’t mean I get lost when doing Backend, though. I love learning, so whenever I get the chance to touch something new, I dive into the code or documentation. Or I just ask a teammate."
+msgstr "Over the last few years, I’ve specialized in Frontend development. I’ve worked with tools like React and Vue, mostly React. That doesn’t mean I get lost when doing Backend, though. I love learning, so whenever I get the chance to touch something new, I dive into the code or documentation. Or I just ask a teammate."
+
+#: src/components/tabsContent/Me.tsx:232
+msgid "Personal project"
+msgstr "Personal project"
+
+#: src/components/tabsContent/Me.tsx:134
+msgid "Pokédex made with Svelte and TypeScript"
+msgstr "Pokédex made with Svelte and TypeScript"
+
+#: src/components/tabsContent/Job.tsx:29
 msgid "Present"
 msgstr "Present"
 
-#: src/pages/index.tsx:227
+#: src/components/tabsContent/Job.tsx:135
 msgid "Produced renders for stands exhibited at E3 2019, Tokyo Gameshow and merch."
 msgstr "Produced renders for stands exhibited at E3 2019, Tokyo Gameshow and merch."
 
-#: src/pages/index.tsx:215
+#: src/components/tabsContent/Me.tsx:277
+msgid "Programming"
+msgstr "Programming"
+
+#: src/components/tabsContent/Job.tsx:124
 msgid "Redesigned the 3D model of the handheld console in development."
 msgstr "Redesigned the 3D model of the handheld console in development."
 
 #: src/pages/index.tsx:50
-msgid "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
-msgstr "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
+#~ msgid "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
+#~ msgstr "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
 
 #: src/components/LanguageSelector.tsx:26
 msgid "Spanish"
 msgstr "Spanish"
 
-#: src/pages/index.tsx:237
+#: src/components/tabsContent/Me.tsx:50
+msgid "Still, I should introduce myself, that part’s necessary. My name is Alessandro, I’m 26 years old and I’ve been in the software world for almost three years."
+msgstr "Still, I should introduce myself, that part’s necessary. My name is Alessandro, I’m 26 years old and I’ve been in the software world for almost three years."
+
+#: src/pages/index.tsx:20
 msgid "Studies"
 msgstr "Studies"
 
@@ -117,14 +273,44 @@ msgstr "Studies"
 msgid "Switch Language"
 msgstr "Switch Language"
 
-#: src/pages/index.tsx:153
+#: src/components/tabsContent/Me.tsx:294
+msgid "Technologies I know best"
+msgstr "Technologies I know best"
+
+#: src/components/tabsContent/Studies.tsx:141
+msgid "They also taught me game design and Unity (C#)"
+msgstr "They also taught me game design and Unity (C#)"
+
+#: src/components/tabsContent/Studies.tsx:39
+msgid "They also taught me Unity and how to provide a good User Experience."
+msgstr "They also taught me Unity and how to provide a good User Experience."
+
+#: src/components/tabsContent/Me.tsx:144
+#: src/components/tabsContent/Me.tsx:180
+#: src/components/tabsContent/Me.tsx:215
+msgid "View code on GitHub"
+msgstr "View code on GitHub"
+
+#: src/components/tabsContent/Job.tsx:64
 msgid "Web Developer Internship"
 msgstr "Web Developer Internship"
 
-#: src/pages/index.tsx:87
-msgid "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
-msgstr "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
+#: src/components/tabsContent/Me.tsx:205
+msgid "Website to CRUD content with an admin panel."
+msgstr "Website to CRUD content with an admin panel."
 
-#: src/pages/index.tsx:19
+#: src/pages/index.tsx:87
+#~ msgid "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
+#~ msgstr "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
+
+#: src/pages/index.tsx:14
 msgid "Who I am"
 msgstr "Who I am"
+
+#: src/components/tabsContent/Me.tsx:99
+msgid "Work stuff"
+msgstr "Work stuff"
+
+#: src/components/tabsContent/Me.tsx:84
+msgid "Working out, especially hitting the gym"
+msgstr "Working out, especially hitting the gym"

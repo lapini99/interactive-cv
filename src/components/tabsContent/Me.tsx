@@ -229,7 +229,7 @@ export default function Me() {
       </div>
       <Divider className="my-4" />
       <h1 className="text-2xl font-bold text-left mt-2 mb-4">
-        Personal project
+        <Trans>Personal project</Trans>
       </h1>
       <p className="text-left mt-4">
         <Trans>

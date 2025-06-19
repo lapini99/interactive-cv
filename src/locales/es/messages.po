@@ -13,103 +13,259 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/index.tsx:206
+#: src/components/tabsContent/Job.tsx:115
 msgid "3D Artist"
-msgstr ""
+msgstr "Artista 3D"
 
-#: src/pages/index.tsx:32
+#: src/components/tabsContent/Me.tsx:274
+msgid "3D modeling and animation"
+msgstr "Modelado y animación 3D"
+
+#: src/components/tabsContent/Me.tsx:33
 msgid "A dude that happened to like computers and stuff related to them."
 msgstr "Un chico al que le gustan los ordenadores y esas cosas"
 
+#: src/components/tabsContent/Me.tsx:221
+msgid "And if you want to see more, feel free to check out my <0>Github</0>"
+msgstr "Y si quieres ver más, no dudes en visitar mi <0>Github</0>"
+
 #: src/pages/index.tsx:68
-msgid "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
-msgstr "Otro hito importante es que actualmente estoy desarrollando mi propio videojuego de terror con Unreal Engine 5. Ha sido un reto emocionante, y en febrero tuve la oportunidad de presentarlo en una feria en Mallorca. Ver la reacción positiva de la gente y cuánto disfrutaron mi juego fue increíblemente gratificante y me llenó de felicidad."
+#~ msgid "Another major milestone is that I’m currently developing my own horror game using Unreal Engine 5. It’s been an exciting challenge, and in February, I had the opportunity to showcase it at a fair in Mallorca (Mallorca Game). Seeing people’s positive reactions and how much they enjoyed my game was incredibly rewarding and filled me with happiness."
+#~ msgstr "Otro hito importante es que actualmente estoy desarrollando mi propio videojuego de terror con Unreal Engine 5. Ha sido un reto emocionante, y en febrero tuve la oportunidad de presentarlo en una feria en Mallorca. Ver la reacción positiva de la gente y cuánto disfrutaron mi juego fue increíblemente gratificante y me llenó de felicidad."
 
-#: src/pages/index.tsx:221
+#: src/components/tabsContent/Me.tsx:235
+msgid "As I mentioned before, my passion is video game development. That’s why I’m working on a personal project called  <0><1>Numb of Joy</1></0>. It’s a first-person psychological horror game made with Unreal Engine 5."
+msgstr "Como ya he comentado antes, mi pasión es el desarrollo de videojuegos. Por eso estoy trabajando en un proyecto personal llamado <0><1>Numb of Joy</1></0>. Es un juego de terror psicológico en primera persona desarrollado con Unreal Engine 5."
+
+#: src/components/tabsContent/Me.tsx:287
+msgid "Basically, I do everything. Well, almost. A good friend helps me with music and sound effects."
+msgstr "Vamos, que lo hago yo todo. Bueno, casi todo. Tengo un buen amigo que me ayuda con la música y los efectos de sonido."
+
+#: src/components/tabsContent/Me.tsx:81
+msgid "Cats"
+msgstr "Gatetes"
+
+#: src/components/tabsContent/Me.tsx:280
+msgid "Concept art"
+msgstr "Concept art"
+
+#: src/components/tabsContent/Job.tsx:130
 msgid "Contributed to the creation of assets for the E3 trailer."
-msgstr ""
+msgstr "Contribuí a la creación de assets para el tráiler de E3."
 
-#: src/pages/index.tsx:190
+#: src/components/tabsContent/Job.tsx:99
 msgid "Crafted environments for a fighting game."
-msgstr ""
+msgstr "Hice entornos para un juego de lucha."
 
-#: src/pages/index.tsx:123
+#: src/components/tabsContent/Job.tsx:34
 msgid "Created an internal tool for online Ikea agents using React, Redux and Axios."
-msgstr ""
+msgstr "Creé una herramienta interna para agentes de Ikea online usando React, Redux y Axios."
 
-#: src/pages/index.tsx:182
+#: src/components/tabsContent/Job.tsx:93
 msgid "Created optimized 3D models for smartphone games."
-msgstr ""
+msgstr "Creé modelos 3D optimizados para juegos de móvil."
 
-#: src/pages/index.tsx:187
+#: src/components/tabsContent/Job.tsx:96
 msgid "Designed levels for a racing game."
-msgstr ""
+msgstr "Diseñé niveles para un juego de carreras."
+
+#: src/components/tabsContent/Me.tsx:271
+msgid "Direction, script, and story"
+msgstr "Dirección, guion y narrativa"
 
 #: src/components/LanguageSelector.tsx:29
 msgid "English"
 msgstr "Inglés"
 
-#: src/pages/index.tsx:135
+#: src/components/tabsContent/Me.tsx:195
+msgid "Final UX Project"
+msgstr "Proyecto final de UX"
+
+#: src/components/tabsContent/Job.tsx:46
 msgid "Fixed and developed new features using Vue or React."
-msgstr ""
+msgstr "Arreglar y desarrollar nuevas funcionalidades usando Vue o React."
 
-#: src/pages/index.tsx:112
+#: src/components/tabsContent/Studies.tsx:22
+msgid "FP Multi-platform Application Development"
+msgstr "FP Desarrollo de Aplicaciones Multiplataforma"
+
+#: src/components/tabsContent/Studies.tsx:121
+msgid "FP Technical Artist, 2D/3D Animation and Game Development"
+msgstr "FP Artista Técnico, Animación 2D/3D y Desarrollo de Videojuegos"
+
+#: src/components/tabsContent/Studies.tsx:57
+msgid "FP Web Application Development"
+msgstr "FP Desarrollo de Aplicaciones Web"
+
+#: src/components/tabsContent/Job.tsx:23
 msgid "Frontend Developer"
-msgstr ""
+msgstr "Desarrollador Frontend"
 
-#: src/pages/index.tsx:173
+#: src/components/tabsContent/Job.tsx:84
 msgid "Game Developer"
-msgstr ""
+msgstr "Desarrollador de Videojuegos"
 
-#: src/pages/index.tsx:29
+#: src/components/tabsContent/Me.tsx:75
+msgid "Gaming"
+msgstr "Los videojuegos"
+
+#: src/components/tabsContent/Me.tsx:167
+msgid "Generates static website with retrieving MongoDB data with Python and Hugo."
+msgstr "Genera un sitio web estático recuperando datos de MongoDB con Python y Hugo."
+
+#: src/components/tabsContent/Studies.tsx:93
+msgid "Graphic Design Advanced course"
+msgstr "Curso Superior de Diseño Gráfico"
+
+#: src/components/tabsContent/Me.tsx:30
 msgid "Hello, I'm Alessandro"
 msgstr "Hola, soy Alessandro"
 
-#: src/pages/index.tsx:41
-msgid "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
-msgstr "Siempre he sido un chico con mucha imaginación. De niño, dibujaba siempre que tenía la oportunidad, y aún me gusta hacerlo. También hacía mis propias películas con piezas de Lego y la cámara de vídeo de mi madre. Más adelante, aprendí a modificar juegos de Pokémon (hackroms) y experimenté con programas de edición de vídeo como Sony Vegas."
+#: src/components/tabsContent/Me.tsx:111
+msgid "Here are a few projects on GitHub I think are worth checking out:"
+msgstr "Te adjunto algún que otro proyecto que tengo en Git que considero que vale la pena echarle un vistazo:"
 
-#: src/pages/index.tsx:129
+#: src/components/tabsContent/Me.tsx:91
+msgid "I already mentioned what my dream is. Sure, that’s my dream, but what I really want is a peaceful life where I can spend time doing the things I enjoy and that make me feel good."
+msgstr "Antes he comentado cual es mi sueño. Ok, es mi sueño, aún así lo que más busco en esta vida es tener una vida tranquila y poder dedicarle tiempo a las cosas que me gustan y me hacen sentir bien."
+
+#: src/components/tabsContent/Studies.tsx:76
+msgid "I also learnt how to build optimized SQL or noSQL databases"
+msgstr "También aprendí a crear bases de datos SQL o noSQL optimizadas"
+
+#: src/components/tabsContent/Me.tsx:44
+msgid "I had copy-pasted a big spiel from my LinkedIn profile. But since this is my own website, I don’t need to be all formal."
+msgstr "Había copy pasteado una turra que tengo en mi perfil Linkedin. Pero como esta es mi web no hace falta ir de formalito."
+
+#: src/components/tabsContent/Me.tsx:68
+msgid "I know this doesn’t really belong in a CV, but I don't mind. My hobbies are:"
+msgstr "Había copy pasteado una turra que tengo en mi perfil Linkedin. Pero como esta es mi web no hace falta ir de formalito."
+
+#: src/components/tabsContent/Studies.tsx:133
+msgid "I learnt 3D Modelling and Animation"
+msgstr "Aprendí Modelado y Animación 3D"
+
+#: src/components/tabsContent/Studies.tsx:105
+msgid "I learnt color theories."
+msgstr "Aprendí teoría del color"
+
+#: src/components/tabsContent/Studies.tsx:66
+msgid "I learnt how to develop applications with Java and Python."
+msgstr "Aprendí a desarrollar aplicaciones con Java y Python."
+
+#: src/components/tabsContent/Studies.tsx:31
+msgid "I learnt how to develop applications with Java."
+msgstr "Aprendí a desarrollar aplicaciones con Java."
+
+#: src/components/tabsContent/Studies.tsx:34
+msgid "I learnt how to develop web apps with PHP and JavaScript."
+msgstr "Aprendí a desarrollar aplicaciones web con PHP y JavaScript."
+
+#: src/components/tabsContent/Studies.tsx:136
+msgid "I learnt how to use Adobe Premiere and After Effects"
+msgstr "Aprendí a usar Adobe Premiere y After Effects"
+
+#: src/components/tabsContent/Studies.tsx:71
+msgid "I learnt SOLID, how to debug and other good coding practices."
+msgstr "Aprendí SOLID, cómo debuggear y otras buenas prácticas de programación."
+
+#: src/components/tabsContent/Studies.tsx:102
+msgid "I masterized Photoshop and Illustrator."
+msgstr "Mastericé Photoshop e Illustrator."
+
+#: src/components/tabsContent/Me.tsx:259
+msgid "I’m putting my heart and soul into this project. I’ve always wanted to tell a story that captivates people, helps them forget their real-life problems, and brings them some relief. I truly believe Numb of Joy can do that."
+msgstr "En este proyecto estoy poniendo toda mi alma y corazón. Siempre he querido publicar una historia que cautive a la gente para que así no piense en sus problemas reales, para que se distraigan y alivien. Y sé que con Numb of Joy lo voy a conseguir."
+
+#: src/pages/index.tsx:41
+#~ msgid "I’ve always been driven by a passion for creating. As a kid, I started drawing whenever I had the chance,and I still love it. I also made my own movies using Lego and my mom’s camcorder. Later, I learned how to modify Pokémon games (hackroms) and explored video editing tools like Sony Vegas."
+#~ msgstr "Siempre he sido un chico con mucha imaginación. De niño, dibujaba siempre que tenía la oportunidad, y aún me gusta hacerlo. También hacía mis propias películas con piezas de Lego y la cámara de vídeo de mi madre. Más adelante, aprendí a modificar juegos de Pokémon (hackroms) y experimenté con programas de edición de vídeo como Sony Vegas."
+
+#: src/components/tabsContent/Job.tsx:40
 msgid "Implemented new purchase methods for Ikea Iceland using React, Redux and Axios."
-msgstr ""
+msgstr "Implementé nuevos métodos de compra para Ikea Islandia usando React, Redux y Axios."
+
+#: src/components/tabsContent/Me.tsx:267
+msgid "In the development, I handle:"
+msgstr "En el desarrollo me encargo de:"
 
 #: src/components/LanguageSelector.tsx:32
 msgid "Italian"
 msgstr "Italiano"
 
-#: src/pages/index.tsx:95
+#: src/pages/index.tsx:17
 msgid "Job"
 msgstr "Trabajo"
 
+#: src/components/tabsContent/Me.tsx:283
+msgid "Level design"
+msgstr "Diseño de niveles"
+
+#: src/components/tabsContent/Me.tsx:87
+msgid "Making people around me laugh"
+msgstr "Hacer reír a los que me rodean"
+
+#: src/components/tabsContent/Me.tsx:78
+msgid "Metal (the music genre, just to be clear)"
+msgstr "El metal (la música, aclaro por si a caso)"
+
+#: src/components/tabsContent/Me.tsx:57
+msgid "My biggest passion and dream is to become a video game director (Kojima fanboy). I actually started by studying video game development. I wanted to be an artist, and programming used to scare me, but since it’s hard to make a living with art, I went for it and learned to code. Now I see programming as a form of art too. Every artist has their way of painting on their canvas (IDE), and I love that."
+msgstr "Mi principal pasión y sueño es ser director de videojuegos (Kojima fanboy). De hecho empecé estudiando desarrollo de videojuegos. Quería ser artista y programar me daba miedo, pero como del arte está difícil vivir le eché cara y aprendí a programar. Ahora también veo la programación como arte. Cada artista tiene su manera de pintar sobre su lienzo (IDE), y eso me encanta."
+
+#: src/components/tabsContent/Me.tsx:41
+msgid "My life or something"
+msgstr "Mi vida o algo"
+
 #: src/pages/index.tsx:78
-msgid "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
-msgstr "A nivel personal, también me siento orgulloso de la confianza que la gente deposita en mí. He tenido la suerte de que amigos y compañeros a menudo acuden a mí en busca de consejo o simplemente para pasar un buen rato. Es bonito saber que valoran mi compañía, ya sea para apoyar en el trabajo o para sacar una sonrisa."
+#~ msgid "On a personal level, I’m also proud of the trust people place in me. I’ve been fortunate enough that friends and colleagues often turn to me for advice or just enjoy hanging out with me. It’s nice to know that my company is appreciated, whether it’s for support at work or just making people laugh. "
+#~ msgstr "A nivel personal, también me siento orgulloso de la confianza que la gente deposita en mí. He tenido la suerte de que amigos y compañeros a menudo acuden a mí en busca de consejo o simplemente para pasar un buen rato. Es bonito saber que valoran mi compañía, ya sea para apoyar en el trabajo o para sacar una sonrisa."
 
 #: src/pages/index.tsx:59
-msgid "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
-msgstr "Uno de los logros de los que más orgulloso estoy es que mis renders 3D fueron utilizados por una empresa llamada Smach Team en eventos importantes como el E3 y la Tokyo Game Show. Fue una gran oportunidad para poner en práctica mi creatividad y mis habilidades técnicas, y me impulsó a seguir mejorando en mi oficio."
+#~ msgid "One of my proudest achievements is that my 3D renders were used by a company named Smach Team at major events like E3 and Tokyo Game Show. It was a great opportunity to put my creativity and technical skills into action, and it really pushed me to continue improving in my craft."
+#~ msgstr "Uno de los logros de los que más orgulloso estoy es que mis renders 3D fueron utilizados por una empresa llamada Smach Team en eventos importantes como el E3 y la Tokyo Game Show. Fue una gran oportunidad para poner en práctica mi creatividad y mis habilidades técnicas, y me impulsó a seguir mejorando en mi oficio."
 
-#: src/pages/index.tsx:118
+#: src/components/tabsContent/Me.tsx:102
+msgid "Over the last few years, I’ve specialized in Frontend development. I’ve worked with tools like React and Vue, mostly React. That doesn’t mean I get lost when doing Backend, though. I love learning, so whenever I get the chance to touch something new, I dive into the code or documentation. Or I just ask a teammate."
+msgstr "Durante los últimos años me he estado especializando en el desarrollo Frontend. He utilizado herramientas como React y Vue, sobretodo React. Ahora bien, esto no quiere decir que si me das algo de back me pierda. Me gusta aprender, así que siempre que tengo la oportunidad de tocar algo que no sé me pongo a leer código y/o documentación. O directamente le pregunto a un compañero."
+
+#: src/components/tabsContent/Me.tsx:232
+msgid "Personal project"
+msgstr "Proyecto personal"
+
+#: src/components/tabsContent/Me.tsx:134
+msgid "Pokédex made with Svelte and TypeScript"
+msgstr "Pokédex hecha con Svelte y TypeScript"
+
+#: src/components/tabsContent/Job.tsx:29
 msgid "Present"
-msgstr ""
+msgstr "Presente"
 
-#: src/pages/index.tsx:227
+#: src/components/tabsContent/Job.tsx:135
 msgid "Produced renders for stands exhibited at E3 2019, Tokyo Gameshow and merch."
-msgstr ""
+msgstr "Produje renders para stands exhibidos en E3 2019, Tokyo Gameshow y merchandising."
 
-#: src/pages/index.tsx:215
+#: src/components/tabsContent/Me.tsx:277
+msgid "Programming"
+msgstr "Programación"
+
+#: src/components/tabsContent/Job.tsx:124
 msgid "Redesigned the 3D model of the handheld console in development."
-msgstr ""
+msgstr "Rediseñé el modelo 3D de la consola portátil en desarrollo."
 
 #: src/pages/index.tsx:50
-msgid "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
-msgstr "¿Por qué cuento esto? Porque lo que quiero transmitir es que soy una persona que siempre da un paso más para alcanzar sus objetivos. Por eso estudié desarrollo de videojuegos y luego me adentré en la programación—porque creo que todo se puede lograr con código."
+#~ msgid "So, why am I sharing this? What I want to convey is that I’m someone who will always go the extra mile to achieve my goals. That’s why I studied game development and later dove into programming,because I believe everything can be done through code."
+#~ msgstr "¿Por qué cuento esto? Porque lo que quiero transmitir es que soy una persona que siempre da un paso más para alcanzar sus objetivos. Por eso estudié desarrollo de videojuegos y luego me adentré en la programación—porque creo que todo se puede lograr con código."
 
 #: src/components/LanguageSelector.tsx:26
 msgid "Spanish"
 msgstr "Español"
 
-#: src/pages/index.tsx:237
+#: src/components/tabsContent/Me.tsx:50
+msgid "Still, I should introduce myself, that part’s necessary. My name is Alessandro, I’m 26 years old and I’ve been in the software world for almost three years."
+msgstr "Aún así me presento, que eso sí hace falta. Me llamo Alessandro, tengo 26 años y llevo casi tres años en el mundo del software."
+
+#: src/pages/index.tsx:20
 msgid "Studies"
 msgstr "Estudios"
 
@@ -117,14 +273,44 @@ msgstr "Estudios"
 msgid "Switch Language"
 msgstr "Cambiar idioma"
 
-#: src/pages/index.tsx:153
+#: src/components/tabsContent/Me.tsx:294
+msgid "Technologies I know best"
+msgstr "Tecnologías que mejor sé usar"
+
+#: src/components/tabsContent/Studies.tsx:141
+msgid "They also taught me game design and Unity (C#)"
+msgstr "También me enseñaron diseño de videojuegos y Unity (C#)"
+
+#: src/components/tabsContent/Studies.tsx:39
+msgid "They also taught me Unity and how to provide a good User Experience."
+msgstr "También me enseñaron Unity y cómo proporcionar una buena experiencia de usuario."
+
+#: src/components/tabsContent/Me.tsx:144
+#: src/components/tabsContent/Me.tsx:180
+#: src/components/tabsContent/Me.tsx:215
+msgid "View code on GitHub"
+msgstr "Ver código en GitHub"
+
+#: src/components/tabsContent/Job.tsx:64
 msgid "Web Developer Internship"
-msgstr ""
+msgstr "Web Developer DUAL"
+
+#: src/components/tabsContent/Me.tsx:205
+msgid "Website to CRUD content with an admin panel."
+msgstr "Página web para CRUD de contenido con un panel de administración."
 
 #: src/pages/index.tsx:87
-msgid "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
-msgstr "Lo que más disfruto es ayudar a los demás, ya sea echando una mano en el trabajo o simplemente siendo quien anima el ambiente. Creo en el poder de la colaboración, en resolver problemas en equipo y en aprender algo nuevo cada día."
+#~ msgid "What I enjoy the most is helping others, whether that means offering a hand at work or simply being the one who lightens the mood. I believe in the power of collaboration, solving problems together, and always learning something new."
+#~ msgstr "Lo que más disfruto es ayudar a los demás, ya sea echando una mano en el trabajo o simplemente siendo quien anima el ambiente. Creo en el poder de la colaboración, en resolver problemas en equipo y en aprender algo nuevo cada día."
 
-#: src/pages/index.tsx:19
+#: src/pages/index.tsx:14
 msgid "Who I am"
 msgstr "Quién soy"
+
+#: src/components/tabsContent/Me.tsx:99
+msgid "Work stuff"
+msgstr "Currele"
+
+#: src/components/tabsContent/Me.tsx:84
+msgid "Working out, especially hitting the gym"
+msgstr "Hacer deporte, sobretodo ir al gym"
