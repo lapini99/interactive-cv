@@ -37,65 +37,79 @@ export default function Me() {
         </div>
       </div>
       <Divider className="my-4" />
-      <h1 className="text-2xl font-bold text-left mt-2 mb-4">Mi vida o algo</h1>
+      <h1 className="text-2xl font-bold text-left mt-2 mb-4">
+        <Trans>My life or something</Trans>
+      </h1>
       <p className="text-left mt-4">
         <Trans>
-          Había copy pasteado una turra que tengo en mi perfil Linkedin. Pero
-          como esta es mi web no hace falta ir de formalito.
+          I had copy-pasted a big spiel from my LinkedIn profile. But since this
+          is my own website, I don’t need to be all formal.
         </Trans>
       </p>
       <p className="text-left mt-4">
         <Trans>
-          Aún así me presento, que eso sí hace falta. Me llamo Alessandro, tengo
-          26 años y llevo casi tres años en el mundo del software.
+          Still, I should introduce myself, that part’s necessary. My name is
+          Alessandro, I’m 26 years old and I’ve been in the software world for
+          almost three years.
         </Trans>
       </p>
       <p className="text-left mt-4">
         <Trans>
-          Mi principal pasión y sueño es ser director de videojuegos (Kojima
-          fanboy). De hecho empecé estudiando desarrollo de videojuegos. Quería
-          ser artista y programar me daba miedo, pero como del arte está difícil
-          vivir le eché cara y aprendí a programar. Ahora también veo la
-          programación como arte. Cada artista tiene su manera de pintar sobre
-          su lienzo (IDE), y eso me encanta.
+          My biggest passion and dream is to become a video game director
+          (Kojima fanboy). I actually started by studying video game
+          development. I wanted to be an artist, and programming used to scare
+          me, but since it’s hard to make a living with art, I went for it and
+          learned to code. Now I see programming as a form of art too. Every
+          artist has their way of painting on their canvas (IDE), and I love
+          that.
         </Trans>
       </p>
       <p className="text-left mt-4">
         <Trans>
-          Sé que para un CV no tiene mucho que ver, pero bueno. Mis aficiones
-          son:
+          I know this doesn’t really belong in a CV, but I don&apos;t mind. My
+          hobbies are:
         </Trans>
       </p>
       <ul className="list-disc list-inside text-left mt-4">
-        <li>Los videojuegos</li>
-        <li>El metal (la música, aclaro por si a caso)</li>
-        <li>Los gatetes</li>
-        <li>Hacer deporte, sobretodo ir al gym</li>
-        <li>Hacer reír a los que me rodean</li>
+        <li>
+          <Trans>Gaming</Trans>
+        </li>
+        <li>
+          <Trans>Metal (the music genre, just to be clear)</Trans>
+        </li>
+        <li>
+          <Trans>Cats</Trans>
+        </li>
+        <li>
+          <Trans>Working out, especially hitting the gym</Trans>
+        </li>
+        <li>
+          <Trans>Making people around me laugh</Trans>
+        </li>
       </ul>
       <p className="text-left mt-4">
         <Trans>
-          Antes he comentado cual es mi sueño. Ok, es mi sueño, aún así lo que
-          más busco en esta vida es tener una vida tranquila y poder dedicarle
-          tiempo a las cosas que me gustan y me hacen sentir bien.
+          I already mentioned what my dream is. Sure, that’s my dream, but what
+          I really want is a peaceful life where I can spend time doing the
+          things I enjoy and that make me feel good.
         </Trans>
       </p>
       <Divider className="my-4" />
-      <h1 className="text-2xl font-bold text-left mt-2 mb-4">Currele</h1>
+      <h1 className="text-2xl font-bold text-left mt-2 mb-4">
+        <Trans>Work stuff</Trans>
+      </h1>
       <p className="text-left mt-4">
         <Trans>
-          Durante los últimos años me he estado especializando en el desarrollo
-          Frontend. He utilizado herramientas como React y Vue, sobretodo React.
-          Ahora bien, esto no quiere decir que si me das algo de back me pierda.
-          Me gusta aprender, así que siempre que tengo la oportunidad de tocar
-          algo que no sé me pongo a leer código y/o documentación. O
-          directamente le pregunto a un compañero.
+          Over the last few years, I’ve specialized in Frontend development.
+          I’ve worked with tools like React and Vue, mostly React. That doesn’t
+          mean I get lost when doing Backend, though. I love learning, so
+          whenever I get the chance to touch something new, I dive into the code
+          or documentation. Or I just ask a teammate.
         </Trans>
       </p>
       <p className="text-left mt-4">
         <Trans>
-          Te adjunto algún que otro proyecto que tengo en Git que considero que
-          vale la pena echarle un vistazo:
+          Here are a few projects on GitHub I think are worth checking out:
         </Trans>
       </p>
       <div>
@@ -117,7 +131,7 @@ export default function Me() {
             <Divider />
             <CardBody>
               <p>
-                <Trans>Pokédex hecha con Svelte y TypeScript</Trans>
+                <Trans>Pokédex made with Svelte and TypeScript</Trans>
               </p>
             </CardBody>
             <Divider />
@@ -127,7 +141,7 @@ export default function Me() {
                 showAnchorIcon
                 href="https://github.com/lapini99/sveltePokedex/tree/dev"
               >
-                <Trans>Ver código en Github</Trans>
+                <Trans>View code on GitHub</Trans>
               </Link>
             </CardFooter>
           </Card>
@@ -151,7 +165,7 @@ export default function Me() {
             <CardBody>
               <p>
                 <Trans>
-                  Generate static website with retrieving MongoDB data with
+                  Generates static website with retrieving MongoDB data with
                   Python and Hugo.
                 </Trans>
               </p>
@@ -163,7 +177,7 @@ export default function Me() {
                 showAnchorIcon
                 href="https://github.com/lapini99/PyDevops"
               >
-                <Trans>Ver código en Github</Trans>
+                <Trans>View code on GitHub</Trans>
               </Link>
             </CardFooter>
           </Card>
@@ -177,7 +191,9 @@ export default function Me() {
                 width={40}
               />
               <div className="flex flex-col">
-                <p className="text-md">Entrega final UX</p>
+                <p className="text-md">
+                  <Trans>Final UX Project</Trans>
+                </p>
                 <p className="text-small text-default-500">
                   PhP + JS + PhPMyAdmin
                 </p>
@@ -196,29 +212,29 @@ export default function Me() {
                 showAnchorIcon
                 href="https://github.com/lapini99/practicaPHP_Alessandro"
               >
-                <Trans>Ver código en Github</Trans>
+                <Trans>View code on GitHub</Trans>
               </Link>
             </CardFooter>
           </Card>
         </div>
         <p className="text-left mt-4">
           <Trans>
-            Y si quieres ver mi perfil puedes acceder a mi{" "}
+            And if you want to see more, feel free to check out my{" "}
             <Link isExternal showAnchorIcon href="https://github.com/lapini99">
               Github
             </Link>
           </Trans>
-          .
+          profile.
         </p>
       </div>
       <Divider className="my-4" />
       <h1 className="text-2xl font-bold text-left mt-2 mb-4">
-        Proyecto personal
+        Personal project
       </h1>
       <p className="text-left mt-4">
         <Trans>
-          Como ya he comentado antes, mi pasión es el desarrollo de videojuegos.
-          Por eso estoy trabajando en un proyecto personal que se llama &nbsp;
+          As I mentioned before, my passion is video game development. That’s
+          why I’m working on a personal project called &nbsp;
           <Link
             isExternal
             showAnchorIcon
@@ -226,8 +242,8 @@ export default function Me() {
           >
             <strong>Numb of Joy</strong>
           </Link>
-          . Es un juego de terror psicológico en primera persona desarrollado
-          con Unreal Engine 5.
+          . It’s a first-person psychological horror game made with Unreal
+          Engine 5.
         </Trans>
       </p>
       <div className="flex flex-col items-center justify-center mt-4">
@@ -241,41 +257,41 @@ export default function Me() {
       </div>
       <p className="text-left mt-4">
         <Trans>
-          En este proyecto estoy poniendo toda mi alma y corazón. Siempre he
-          querido publicar una historia que cautive a la gente para que así no
-          piense en sus problemas reales, para que se distraigan y alivien. Y sé
-          que con Numb of Joy lo voy a conseguir.
+          I’m putting my heart and soul into this project. I’ve always wanted to
+          tell a story that captivates people, helps them forget their real-life
+          problems, and brings them some relief. I truly believe Numb of Joy can
+          do that.
         </Trans>
       </p>
       <p className="text-left mt-4">
-        <Trans>En el desarrollo me encargo de:</Trans>
+        <Trans>In the development, I handle:</Trans>
       </p>
       <ul className="list-disc list-inside text-left mt-4">
         <li>
-          <Trans>Dirección, guión e historia</Trans>
+          <Trans>Direction, script, and story</Trans>
         </li>
         <li>
-          <Trans>Modelado 3D y animación</Trans>
+          <Trans>3D modeling and animation</Trans>
         </li>
         <li>
-          <Trans>Programación</Trans>
+          <Trans>Programming</Trans>
         </li>
         <li>
           <Trans>Concept art</Trans>
         </li>
         <li>
-          <Trans>Diseño de nivel</Trans>
+          <Trans>Level design</Trans>
         </li>
       </ul>
       <p className="text-left mt-4">
         <Trans>
-          Vamos, que lo hago yo todo. Bueno, casi todo. Tengo un buen amigo que
-          me ayuda con la música y los efectos de sonido.
+          Basically, I do everything. Well, almost. A good friend helps me with
+          music and sound effects.
         </Trans>
       </p>
       <Divider className="my-4" />
       <h1 className="text-2xl font-bold text-left mt-2 mb-4">
-        <Trans>Tecnologías que mejor sé usar</Trans>
+        <Trans>Technologies I know best</Trans>
       </h1>
       <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
         {Object.values(siteConfig.techs).map((el) => (
