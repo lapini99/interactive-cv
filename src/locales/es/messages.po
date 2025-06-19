@@ -139,7 +139,7 @@ msgstr "Había copy pasteado una turra que tengo en mi perfil de Linkedin. Pero 
 
 #: src/components/tabsContent/Me.tsx:68
 msgid "I know this doesn’t really belong in a CV, but I don't mind. My hobbies are:"
-msgstr "Había copy pasteado una turra que tengo en mi perfil de Linkedin. Pero como esta es mi web no hace falta ir de formalito."
+msgstr "Sé que para un CV no tiene mucho que ver, pero bueno. Mis aficiones son:"
 
 #: src/components/tabsContent/Studies.tsx:133
 msgid "I learnt 3D Modelling and Animation"
