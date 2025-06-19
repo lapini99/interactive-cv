@@ -14,5 +14,5 @@ export default defineConfig({
     tsconfigPaths(),
     lingui(),
   ],
-  base: '/interactive-cv/',
+  base: '/',
 });
