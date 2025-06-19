@@ -1,6 +1,6 @@
 import { i18n } from "@lingui/core";
 
-const defaultLocale = "en";
+const defaultLocale = "es";
 
 async function loadDefaultTranslations(): Promise<void> {
   const { messages } = await import(`./${defaultLocale}/messages.ts`);
