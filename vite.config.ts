@@ -5,11 +5,14 @@ import { lingui } from "@lingui/vite-plugin";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react({
+  plugins: [
+    react({
       babel: {
         plugins: ["@lingui/babel-plugin-lingui-macro"],
       },
-    }), 
+    }),
     tsconfigPaths(),
-    lingui(),],
+    lingui(),
+  ],
+  base: "https://lapini99.github.io/interactive-cv",
 });
