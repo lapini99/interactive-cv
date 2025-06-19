@@ -23,7 +23,7 @@ export default function Me() {
           isBordered
           alt="Alessandro avatar"
           className="w-24 h-24"
-          src="/images/yo.jpeg"
+          src="images/yo.jpeg"
         />
         <div className="flex flex-col justify-center flex-1 h-full">
           <h1 className={title()}>
